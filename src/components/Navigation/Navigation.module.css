@@ -1,0 +1,47 @@
+.navigation {
+    display: flex;
+    gap: 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    color: #dddddd;
+    background-color: #333333;
+}
+
+.text {
+    font-size: 24px;
+    font-weight: 700;
+    color: #dddddd;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.link {
+    color: #dddddd;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.link:hover {
+    color: #ffffff;
+}
+
+.active {
+    /* background-color: teal;
+  color: #fff; */
+    border-bottom: 3px solid #dddddd;
+    border-radius: 3px;
+}
